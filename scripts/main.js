@@ -2,10 +2,10 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === '/home/jaydon/Pictures/rottweiler-puppy2.jpg') {
-      myImage.setAttribute ('src','/home/jaydon/Pictures/rottweiler-puppy2.jpg');
+    if(mySrc === '../rottweiler-puppy2.jpg') {
+      myImage.setAttribute ('src','../rottweiler-puppy2.jpg');
     } else {
-      myImage.setAttribute ('src','/home/jaydon/Pictures/rottweiler-puppy2.jpg');
+      myImage.setAttribute ('src','../rottweiler-puppy2.jpg');
     }
 }
 var myButton = document.querySelector('button');
