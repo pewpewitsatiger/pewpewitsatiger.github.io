@@ -3,7 +3,7 @@ var myImage = document.querySelector('img');
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
     if(mySrc === '../rottweiler-puppy2.jpg') {
-      myImage.setAttribute ('src','../rottweiler-puppy2.jpg');
+      myImage.setAttribute ('src','../rottweiler-puppy.jpg');
     } else {
       myImage.setAttribute ('src','../rottweiler-puppy2.jpg');
     }
